@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmx version="1.4">
+  <header datatype="PlainText" segtype="sentence" adminlang="en-US" srclang="ru" o-tmf="TMX"/>
+  <body>
+    <tu>
+      <tuv xml:lang="ru-RU"><seg>Техническая документация - "Океанские Головоломки"</seg></tuv>
+      <tuv xml:lang="en-US"><seg>Technical Documentation - "Ocean Puzzles"</seg></tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru-RU"><seg>1. ОБЩЕЕ ОПИСАНИЕ</seg></tuv>
+      <tuv xml:lang="en-US"><seg>1. GENERAL DESCRIPTION</seg></tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru-RU"><seg>"Океанские Головоломки" - 2D пазл-игра в подводном мире с механиками создания предметов. Игрок исследует коралловые рифы, собирает ресурсы и создает инструменты для решения экологических головоломок. Игровой цикл строится вокруг исследования локаций, сбора материалов и восстановления морской экосистемы.</seg></tuv>
+      <tuv xml:lang="en-US"><seg>"Ocean Puzzles" is a 2D puzzle game set in an underwater world with item crafting mechanics. The player explores coral reefs, collects resources, and creates tools to solve environmental puzzles. The game loop revolves around exploring locations, gathering materials, and restoring marine ecosystems.</seg></tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru-RU"><seg>Цели разработки: интуитивный интерфейс пазлов, плавная анимация подводного мира, модульная система крафта.</seg></tuv>
+      <tuv xml:lang="en-US"><seg>Development goals: intuitive puzzle interface, smooth underwater animations, modular crafting system.</seg></tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru-RU"><seg>2. ИГРОВАЯ МЕХАНИКА</seg></tuv>
+      <tuv xml:lang="en-US"><seg>2. GAME MECHANICS</seg></tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru-RU"><seg>2.1 Система пазлов</seg></tuv>
+      <tuv xml:lang="en-US"><seg>2.1 Puzzle System</seg></tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru-RU"><seg>Типы головоломок:</seg></tuv>
+      <tuv xml:lang="en-US"><seg>Puzzle types:</seg></tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru-RU"><seg>Сборка коралловых фрагментов</seg></tuv>
+      <tuv xml:lang="en-US"><seg>Assembling coral fragments</seg></tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru-RU"><seg>Соединение морских течений</seg></tuv>
+      <tuv xml:lang="en-US"><seg>Connecting ocean currents</seg></tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru-RU"><seg>Расстановление морских обитателей в пищевой цепи</seg></tuv>
+      <tuv xml:lang="en-US"><seg>Placing marine creatures in food chains</seg></tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru-RU"><seg>Механики: перетаскивание, вращение, соединение элементов</seg></tuv>
+      <tuv xml:lang="en-US"><seg>Mechanics: dragging, rotating, connecting elements</seg></tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru-RU"><seg>Сложность: прогрессивное увеличение от 4 до 64 элементов</seg></tuv>
+      <tuv xml:lang="en-US"><seg>Difficulty: progressive increase from 4 to 64 elements</seg></tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru-RU"><seg>2.2 Подводный мир</seg></tuv>
+      <tuv xml:lang="en-US"><seg>2.2 Underwater World</seg></tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru-RU"><seg>Динамическая среда: течения, изменение освещения, миграция рыб</seg></tuv>
+      <tuv xml:lang="en-US"><seg>Dynamic environment: currents, lighting changes, fish migration</seg></tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru-RU"><seg>Интерактивные зоны: коралловые рифы, затонувшие корабли, подводные пещеры</seg></tuv>
+      <tuv xml:lang="en-US"><seg>Interactive zones: coral reefs, shipwrecks, underwater caves</seg></tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru-RU"><seg>Сезонные изменения: влияют на доступность ресурсов и виды головоломок</seg></tuv>
+      <tuv xml:lang="en-US"><seg>Seasonal changes: affect resource availability and puzzle types</seg></tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru-RU"><seg>2.3 Система создания предметов</seg></tuv>
+      <tuv xml:lang="en-US"><seg>2.3 Item Crafting System</seg></tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru-RU"><seg>Ресурсы: водоросли, ракушки, жемчуг, кораллы</seg></tuv>
+      <tuv xml:lang="en-US"><seg>Resources: seaweed, shells, pearls, corals</seg></tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru-RU"><seg>Инструменты: сети, скальпели, усилители роста</seg></tuv>
+      <tuv xml:lang="en-US"><seg>Tools: nets, scalpels, growth enhancers</seg></tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru-RU"><seg>Строения: очистители воды, коралловые фермы, убежища для рыб</seg></tuv>
+      <tuv xml:lang="en-US"><seg>Structures: water purifiers, coral farms, fish shelters</seg></tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru-RU"><seg>3. СИСТЕМА УРОВНЕЙ</seg></tuv>
+      <tuv xml:lang="en-US"><seg>3. LEVEL SYSTEM</seg></tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru-RU"><seg>3.1 Структура локаций</seg></tuv>
+      <tuv xml:lang="en-US"><seg>3.1 Location Structure</seg></tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru-RU"><seg>Зоны: Прибрежная → Рифовая → Глубоководная → Абиссальная</seg></tuv>
+      <tuv xml:lang="en-US"><seg>Zones: Coastal → Reef → Deep Sea → Abyssal</seg></tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru-RU"><seg>Размеры уровней: 3×3 до 8×8 секторов</seg></tuv>
+      <tuv xml:lang="en-US"><seg>Level sizes: 3×3 to 8×8 sectors</seg></tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru-RU"><seg>Процедурная генерация: расположение ресурсов и препятствий</seg></tuv>
+      <tuv xml:lang="en-US"><seg>Procedural generation: resource and obstacle placement</seg></tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru-RU"><seg>3.2 Дизайн головоломок</seg></tuv>
+      <tuv xml:lang="en-US"><seg>3.2 Puzzle Design</seg></tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru-RU"><seg>Уровень = {</seg></tuv>
+      <tuv xml:lang="en-US"><seg>Level = {</seg></tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru-RU"><seg>"цель": "восстановить коралловый риф",</seg></tuv>
+      <tuv xml:lang="en-US"><seg>"goal": "restore coral reef",</seg></tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru-RU"><seg>"элементы": ["коралл_красный", "коралл_синий", "водоросли"],</seg></tuv>
+      <tuv xml:lang="en-US"><seg>"elements": ["coral_red", "coral_blue", "seaweed"],</seg></tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru-RU"><seg>"ограничения": "температура", "кислотность", "хищники"</seg></tuv>
+      <tuv xml:lang="en-US"><seg>"constraints": "temperature", "acidity", "predators"</seg></tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru-RU"><seg>}</seg></tuv>
+      <tuv xml:lang="en-US"><seg>}</seg></tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru-RU"><seg>4. ТЕХНИЧЕСКАЯ АРХИТЕКТУРА</seg></tuv>
+      <tuv xml:lang="en-US"><seg>4. TECHNICAL ARCHITECTURE</seg></tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru-RU"><seg>4.1 Форматы данных</seg></tuv>
+      <tuv xml:lang="en-US"><seg>4.1 Data Formats</seg></tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru-RU"><seg>/levels/*.json - конфигурации уровней</seg></tuv>
+      <tuv xml:lang="en-US"><seg>/levels/*.json - level configurations</seg></tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru-RU"><seg>/items/*.json - предметы и ресурсы</seg></tuv>
+      <tuv xml:lang="en-US"><seg>/items/*.json - items and resources</seg></tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru-RU"><seg>/creatures/*.json - морские обитатели</seg></tuv>
+      <tuv xml:lang="en-US"><seg>/creatures/*.json - marine creatures</seg></tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru-RU"><seg>/puzzles/*.json - шаблоны головоломок</seg></tuv>
+      <tuv xml:lang="en-US"><seg>/puzzles/*.json - puzzle templates</seg></tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru-RU"><seg>4.2 Основные системы</seg></tuv>
+      <tuv xml:lang="en-US"><seg>4.2 Core Systems</seg></tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru-RU"><seg>PuzzleManager: управление состоянием головоломок</seg></tuv>
+      <tuv xml:lang="en-US"><seg>PuzzleManager: manages puzzle states</seg></tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru-RU"><seg>CraftingSystem: логика создания предметов</seg></tuv>
+      <tuv xml:lang="en-US"><seg>CraftingSystem: handles item creation logic</seg></tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru-RU"><seg>OceanSimulation: симуляция подводной среды</seg></tuv>
+      <tuv xml:lang="en-US"><seg>OceanSimulation: simulates underwater environment</seg></tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru-RU"><seg>ProgressTracker: отслеживание прогресса игрока</seg></tuv>
+      <tuv xml:lang="en-US"><seg>ProgressTracker: tracks player progress</seg></tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru-RU"><seg>4.3 Физика и анимация</seg></tuv>
+      <tuv xml:lang="en-US"><seg>4.3 Physics and Animation</seg></tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru-RU"><seg>Водная динамика: плавное движение объектов</seg></tuv>
+      <tuv xml:lang="en-US"><seg>Water dynamics: smooth object movement</seg></tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru-RU"><seg>Параллакс-скроллинг: 4 слоя фона</seg></tuv>
+      <tuv xml:lang="en-US"><seg>Parallax scrolling: 4 background layers</seg></tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru-RU"><seg>Частицы: пузыри, световые эффекты, частицы песка</seg></tuv>
+      <tuv xml:lang="en-US"><seg>Particles: bubbles, light effects, sand particles</seg></tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru-RU"><seg>5. ИСКУССТВО И ЗВУК</seg></tuv>
+      <tuv xml:lang="en-US"><seg>5. ART AND SOUND</seg></tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru-RU"><seg>5.1 Визуальный стиль</seg></tuv>
+      <tuv xml:lang="en-US"><seg>5.1 Visual Style</seg></tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru-RU"><seg>2D векторная графика с ручной прорисовкой</seg></tuv>
+      <tuv xml:lang="en-US"><seg>2D vector graphics with hand-drawn elements</seg></tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru-RU"><seg>Цветовая палитра: бирюзовые, синие, фиолетовые тона</seg></tuv>
+      <tuv xml:lang="en-US"><seg>Color palette: turquoise, blue, purple tones</seg></tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru-RU"><seg>Анимации: плавающие рыбы, шевелящиеся кораллы</seg></tuv>
+      <tuv xml:lang="en-US"><seg>Animations: swimming fish, moving corals</seg></tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru-RU"><seg>5.2 Аудиодизайн</seg></tuv>
+      <tuv xml:lang="en-US"><seg>5.2 Audio Design</seg></tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru-RU"><seg>Динамическая музыка: меняется в зависимости от глубины</seg></tuv>
+      <tuv xml:lang="en-US"><seg>Dynamic music: changes based on depth</seg></tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru-RU"><seg>Звуки природы: щелчки дельфинов, песни китов</seg></tuv>
+      <tuv xml:lang="en-US"><seg>Nature sounds: dolphin clicks, whale songs</seg></tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru-RU"><seg>Эффекты: бульки, перелистывание элементов</seg></tuv>
+      <tuv xml:lang="en-US"><seg>Effects: bubbles, element flipping sounds</seg></tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru-RU"><seg>6. ПЛАТФОРМЫ И ПРОИЗВОДИТЕЛЬНОСТЬ</seg></tuv>
+      <tuv xml:lang="en-US"><seg>6. PLATFORMS AND PERFORMANCE</seg></tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru-RU"><seg>6.1 Целевые платформы</seg></tuv>
+      <tuv xml:lang="en-US"><seg>6.1 Target Platforms</seg></tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru-RU"><seg>Мобильные: iOS/Android (тач-интерфейс)</seg></tuv>
+      <tuv xml:lang="en-US"><seg>Mobile: iOS/Android (touch interface)</seg></tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru-RU"><seg>ПК: Windows/Mac/Linux (мышь/клавиатура)</seg></tuv>
+      <tuv xml:lang="en-US"><seg>PC: Windows/Mac/Linux (mouse/keyboard)</seg></tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru-RU"><seg>Веб: HTML5 для браузерных версий</seg></tuv>
+      <tuv xml:lang="en-US"><seg>Web: HTML5 for browser versions</seg></tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru-RU"><seg>6.2 Оптимизация</seg></tuv>
+      <tuv xml:lang="en-US"><seg>6.2 Optimization</seg></tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru-RU"><seg>Пул объектов: для часто используемых элементов</seg></tuv>
+      <tuv xml:lang="en-US"><seg>Object pooling: for frequently used elements</seg></tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru-RU"><seg>Ленивая загрузка: ресурсов уровней</seg></tuv>
+      <tuv xml:lang="en-US"><seg>Lazy loading: of level resources</seg></tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru-RU"><seg>Компрессия текстур: для мобильных устройств</seg></tuv>
+      <tuv xml:lang="en-US"><seg>Texture compression: for mobile devices</seg></tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru-RU"><seg>7. MVP (МИНИМАЛЬНАЯ ВЕРСИЯ)</seg></tuv>
+      <tuv xml:lang="en-US"><seg>7. MVP (MINIMUM VIABLE PRODUCT)</seg></tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru-RU"><seg>7.1 Функциональность</seg></tuv>
+      <tuv xml:lang="en-US"><seg>7.1 Functionality</seg></tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru-RU"><seg>3 игровые зоны (15 уровней)</seg></tuv>
+      <tuv xml:lang="en-US"><seg>3 game zones (15 levels)</seg></tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru-RU"><seg>20 видов морских обитателей</seg></tuv>
+      <tuv xml:lang="en-US"><seg>20 marine creature types</seg></tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru-RU"><seg>Система крафта (10 рецептов)</seg></tuv>
+      <tuv xml:lang="en-US"><seg>Crafting system (10 recipes)</seg></tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru-RU"><seg>5 типов головоломок</seg></tuv>
+      <tuv xml:lang="en-US"><seg>5 puzzle types</seg></tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru-RU"><seg>Система достижений</seg></tuv>
+      <tuv xml:lang="en-US"><seg>Achievement system</seg></tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru-RU"><seg>7.2 Технические требования</seg></tuv>
+      <tuv xml:lang="en-US"><seg>7.2 Technical Requirements</seg></tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru-RU"><seg>Поддержка разрешения 1920×1080</seg></tuv>
+      <tuv xml:lang="en-US"><seg>Support for 1920×1080 resolution</seg></tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru-RU"><seg>60 FPS на средних smartphones</seg></tuv>
+      <tuv xml:lang="en-US"><seg>60 FPS on mid-range smartphones</seg></tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru-RU"><seg>Локализация: русский/английский языки</seg></tuv>
+      <tuv xml:lang="en-US"><seg>Localization: Russian/English languages</seg></tuv>
+    </tu>
+  </body>
+</tmx>
