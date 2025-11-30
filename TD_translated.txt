@@ -1,0 +1,122 @@
+TECHNICAL DOCUMENTATION - "OCEAN PUZZLES"
+1. GENERAL DESCRIPTION
+"Ocean Puzzles" is a 2D puzzle game set in an underwater world with item crafting mechanics. The player explores coral reefs, collects resources, and creates tools to solve environmental puzzles. The game loop revolves around exploring locations, gathering materials, and restoring marine ecosystems.
+
+Development goals: intuitive puzzle interface, smooth underwater animations, modular crafting system.
+
+2. GAME MECHANICS
+2.1 Puzzle System
+Puzzle types:
+
+Assembling coral fragments
+
+Connecting ocean currents
+
+Placing marine creatures in food chains
+
+Mechanics: dragging, rotating, connecting elements
+
+Difficulty: progressive increase from 4 to 64 elements
+
+2.2 Underwater World
+Dynamic environment: currents, lighting changes, fish migration
+
+Interactive zones: coral reefs, shipwrecks, underwater caves
+
+Seasonal changes: affect resource availability and puzzle types
+
+2.3 Item Crafting System
+Resources: seaweed, shells, pearls, corals
+
+Tools: nets, scalpels, growth enhancers
+
+Structures: water purifiers, coral farms, fish shelters
+
+3. LEVEL SYSTEM
+3.1 Location Structure
+Zones: Coastal → Reef → Deep Sea → Abyssal
+
+Level sizes: 3×3 to 8×8 sectors
+
+Procedural generation: resource and obstacle placement
+
+3.2 Puzzle Design
+Level = {
+  "goal": "restore coral reef",
+  "elements": ["coral_red", "coral_blue", "seaweed"],
+  "constraints": "temperature", "acidity", "predators"
+}
+
+4. TECHNICAL ARCHITECTURE
+4.1 Data Formats
+
+/levels/*.json - level configurations
+/items/*.json - items and resources
+/creatures/*.json - marine creatures
+/puzzles/*.json - puzzle templates
+
+4.2 Core Systems
+PuzzleManager: manages puzzle states
+
+CraftingSystem: handles item creation logic
+
+OceanSimulation: simulates underwater environment
+
+ProgressTracker: tracks player progress
+
+4.3 Physics and Animation
+Water dynamics: smooth object movement
+
+Parallax scrolling: 4 background layers
+
+Particles: bubbles, light effects, sand particles
+
+5. ART AND SOUND
+5.1 Visual Style
+2D vector graphics with hand-drawn elements
+
+Color palette: turquoise, blue, purple tones
+
+Animations: swimming fish, moving corals
+
+5.2 Audio Design
+Dynamic music: changes based on depth
+
+Nature sounds: dolphin clicks, whale songs
+
+Effects: bubbles, element flipping sounds
+
+6. PLATFORMS AND PERFORMANCE
+6.1 Target Platforms
+Mobile: iOS/Android (touch interface)
+
+PC: Windows/Mac/Linux (mouse/keyboard)
+
+Web: HTML5 for browser versions
+
+6.2 Optimization
+Object pooling: for frequently used elements
+
+Lazy loading: of level resources
+
+Texture compression: for mobile devices
+
+7. MVP (MINIMUM VIABLE PRODUCT)
+7.1 Functionality
+3 game zones (15 levels)
+
+20 marine creature types
+
+Crafting system (10 recipes)
+
+5 puzzle types
+
+Achievement system
+
+7.2 Technical Requirements
+Support for 1920×1080 resolution
+
+60 FPS on mid-range smartphones
+
+Localization: Russian/English languages
+
