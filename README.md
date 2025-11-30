@@ -1,3 +1,3 @@
 # TD - техническая документация
 # TD_translated - переведенная техническая документация
-# Ocean puzzles - TMX файл
+# Ocean_puzzles - TMX файл
